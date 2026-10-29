@@ -1,0 +1,32 @@
+body { 
+    font-family: Arial, sans-serif; 
+    padding: 20px; 
+}
+section { 
+    border: 1px solid #ccc; 
+    padding: 15px; 
+    margin-bottom: 20px; 
+    border-radius: 8px; 
+}
+button { 
+    padding: 8px 12px; 
+    cursor: pointer; 
+}
+button:disabled { 
+    background: #ccc; 
+    cursor: not-allowed; 
+}
+input { 
+    padding: 8px; 
+    margin-right: 10px; 
+}
+#advice-out, #quote-container, #country-info {
+    margin-top: 15px;
+}
+#breed-list {
+    max-height: 250px;
+    overflow-y: auto;
+    border: 1px solid #eee;
+    padding: 10px 30px;
+    background: #f9f9f9;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Server Interaction</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <section>
+        <h2>Task 1: Advice by Keyword</h2>
+        <input type="text" id="keyword" placeholder="Enter a word (e.g., spider)">
+        <button onclick="fetchAdviceByKeyword(document.getElementById('keyword').value)">Search</button>
+        <div id="advice-out"></div>
+    </section>
+
+    <section>
+        <h2>Task 2: Dog Breeds</h2>
+        <button onclick="fetchDogBreeds()">Show Breeds</button>
+        <ul id="breed-list"></ul>
+    </section>
+
+    <section>
+        <h2>Task 3: Random Quote</h2>
+        <button onclick="fetchRandomQuote()">Get Quote</button>
+        <div id="quote-container"></div>
+    </section>
+
+    <section>
+        <h2>Task 4: Country Information</h2>
+        <form id="country-form">
+            <input type="text" id="countryName" placeholder="Enter country (e.g. Ukraine or USA)" required>
+            <button type="submit" id="reg-btn">Search / Register</button>
+        </form>
+        <div id="country-info"></div>
+    </section>
+
+</body>
+</html>
